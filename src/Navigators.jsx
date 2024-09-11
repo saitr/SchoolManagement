@@ -9,11 +9,11 @@ import Teacher from './components/Teacher';
 import Admin from './components/Admin';
 
 function Navigators() {
-  const location = useLocation();  // Hook to get the current location
+  const location = useLocation(); 
 
   return (
     <>
-      {/* Conditionally render Header based on the current route */}
+      
       {location.pathname !== '/login' && <Header />}
       
       <Routes>
